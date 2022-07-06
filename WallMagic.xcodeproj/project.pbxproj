@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7603D1639EAD0D80CC140A18 /* WallMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603DD3468D0CDB13389BA1F /* WallMagicUITests.swift */; };
+		7603D72BBFC7AA1D01688A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7603D6B6F141ABCFD33EDC0E /* Assets.xcassets */; };
+		7603DB7A32ACB741C2B4CAE1 /* WallMagicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603DECEF135CEB3CC1B02ED /* WallMagicUITestsLaunchTests.swift */; };
+		7603DDC7B03146C242931716 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7603D27341F9E899536AF154 /* MainMenu.xib */; };
+		7603DEE1D2B52AD2354F8869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603D5C2F517A7E0D72CB997 /* AppDelegate.swift */; };
+		7603DFFE298477600D5DD208 /* WallMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603D3FCF00D9C0918A29F87 /* WallMagicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7603D1D21951054DBEC446DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7603D58FDD888D70A47CEC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7603DD49648504264F206EFE;
+			remoteInfo = WallMagic;
+		};
+		7603D65CBDBB8215C6128543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7603D58FDD888D70A47CEC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7603DD49648504264F206EFE;
+			remoteInfo = WallMagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7603D09E18928DA58EA0936D /* WallMagic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WallMagic.entitlements; sourceTree = "<group>"; };
+		7603D3FCF00D9C0918A29F87 /* WallMagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallMagicTests.swift; sourceTree = "<group>"; };
+		7603D493C60FD7A399C79954 /* WallMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallMagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7603D5C2F517A7E0D72CB997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7603D6B6F141ABCFD33EDC0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7603D6F76F672986BC3261E6 /* WallMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7603D873DAEC0185BD6956C8 /* WallMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7603DB0171151622C7BC78E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7603DD3468D0CDB13389BA1F /* WallMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallMagicUITests.swift; sourceTree = "<group>"; };
+		7603DECEF135CEB3CC1B02ED /* WallMagicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallMagicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7603D08CC5C3BFE2DBA1B726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7603D49B76CD27D9E7F12CE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7603DB6E0C43080E5FA1C6DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7603D182720CE528AA34B8A7 = {
+			isa = PBXGroup;
+			children = (
+				7603D64123545495E202D86F /* Products */,
+				7603D855A4044A0963338A4E /* WallMagic */,
+				7603D9A2326E71AD13AB222A /* WallMagicTests */,
+				7603D98F0ED128A6D8D494FD /* WallMagicUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		7603D64123545495E202D86F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7603D873DAEC0185BD6956C8 /* WallMagic.app */,
+				7603D493C60FD7A399C79954 /* WallMagicTests.xctest */,
+				7603D6F76F672986BC3261E6 /* WallMagicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7603D855A4044A0963338A4E /* WallMagic */ = {
+			isa = PBXGroup;
+			children = (
+				7603D6B6F141ABCFD33EDC0E /* Assets.xcassets */,
+				7603D09E18928DA58EA0936D /* WallMagic.entitlements */,
+				7603D5C2F517A7E0D72CB997 /* AppDelegate.swift */,
+				7603D27341F9E899536AF154 /* MainMenu.xib */,
+			);
+			path = WallMagic;
+			sourceTree = "<group>";
+		};
+		7603D98F0ED128A6D8D494FD /* WallMagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7603DD3468D0CDB13389BA1F /* WallMagicUITests.swift */,
+				7603DECEF135CEB3CC1B02ED /* WallMagicUITestsLaunchTests.swift */,
+			);
+			path = WallMagicUITests;
+			sourceTree = "<group>";
+		};
+		7603D9A2326E71AD13AB222A /* WallMagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				7603D3FCF00D9C0918A29F87 /* WallMagicTests.swift */,
+			);
+			path = WallMagicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7603D0098A3BAAA8265347A2 /* WallMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7603D0962BF179A2DE62EE2E /* Build configuration list for PBXNativeTarget "WallMagicTests" */;
+			buildPhases = (
+				7603D8B3D1D5363FC0ACDBBD /* Sources */,
+				7603D49B76CD27D9E7F12CE1 /* Frameworks */,
+				7603D098D309638050CFBEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7603DBDA573810D3DDA06696 /* PBXTargetDependency */,
+			);
+			name = WallMagicTests;
+			productName = WallMagicTests;
+			productReference = 7603D493C60FD7A399C79954 /* WallMagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7603D468746772FF42793F70 /* WallMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7603D7847C8DED7581C71283 /* Build configuration list for PBXNativeTarget "WallMagicUITests" */;
+			buildPhases = (
+				7603D1BC537C54728A60B0EA /* Sources */,
+				7603D08CC5C3BFE2DBA1B726 /* Frameworks */,
+				7603DDD66EC58A35D0F40F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7603D6B0FABA4EBF76D28870 /* PBXTargetDependency */,
+			);
+			name = WallMagicUITests;
+			productName = WallMagicUITests;
+			productReference = 7603D6F76F672986BC3261E6 /* WallMagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7603DD49648504264F206EFE /* WallMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7603DEB05A7D2AA43BFDFB2D /* Build configuration list for PBXNativeTarget "WallMagic" */;
+			buildPhases = (
+				7603DEF5239DFD36582B94C4 /* Sources */,
+				7603DB6E0C43080E5FA1C6DA /* Frameworks */,
+				7603DDC5077E007FA24BE713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallMagic;
+			productName = WallMagic;
+			productReference = 7603D873DAEC0185BD6956C8 /* WallMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7603D58FDD888D70A47CEC3C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7603DFA165CFCCB206521DE3 /* Build configuration list for PBXProject "WallMagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7603D182720CE528AA34B8A7;
+			productRefGroup = 7603D64123545495E202D86F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7603DD49648504264F206EFE /* WallMagic */,
+				7603D0098A3BAAA8265347A2 /* WallMagicTests */,
+				7603D468746772FF42793F70 /* WallMagicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7603D098D309638050CFBEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7603DDC5077E007FA24BE713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7603D72BBFC7AA1D01688A3C /* Assets.xcassets in Resources */,
+				7603DDC7B03146C242931716 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7603DDD66EC58A35D0F40F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7603D1BC537C54728A60B0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7603D1639EAD0D80CC140A18 /* WallMagicUITests.swift in Sources */,
+				7603DB7A32ACB741C2B4CAE1 /* WallMagicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7603D8B3D1D5363FC0ACDBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7603DFFE298477600D5DD208 /* WallMagicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7603DEF5239DFD36582B94C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7603DEE1D2B52AD2354F8869 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7603D6B0FABA4EBF76D28870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7603DD49648504264F206EFE /* WallMagic */;
+			targetProxy = 7603D1D21951054DBEC446DD /* PBXContainerItemProxy */;
+		};
+		7603DBDA573810D3DDA06696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7603DD49648504264F206EFE /* WallMagic */;
+			targetProxy = 7603D65CBDBB8215C6128543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7603D27341F9E899536AF154 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7603DB0171151622C7BC78E2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7603D10BBB33F64B91301150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WallMagic/WallMagic.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harrykd.wallmagic.WallMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7603D2616C4B49A321207808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7603D412E74C96800E11337E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WallMagic/WallMagic.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harrykd.wallmagic.WallMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7603D4F6C06DFFC894054759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WallMagic.app/Contents/MacOS/WallMagic";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harrykd.wallmagic.WallMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		7603D56305863AFC6A8762AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7603D89518B591DAB2BF18FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WallMagic.app/Contents/MacOS/WallMagic";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harrykd.wallmagic.WallMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		7603DCEC66415DE54637BDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harrykd.wallmagic.WallMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WallMagic;
+			};
+			name = Debug;
+		};
+		7603DFFA5D3BC6D8BD95DAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harrykd.wallmagic.WallMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WallMagic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7603D0962BF179A2DE62EE2E /* Build configuration list for PBXNativeTarget "WallMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7603D4F6C06DFFC894054759 /* Debug */,
+				7603D89518B591DAB2BF18FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7603D7847C8DED7581C71283 /* Build configuration list for PBXNativeTarget "WallMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7603DCEC66415DE54637BDD4 /* Debug */,
+				7603DFFA5D3BC6D8BD95DAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7603DEB05A7D2AA43BFDFB2D /* Build configuration list for PBXNativeTarget "WallMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7603D412E74C96800E11337E /* Debug */,
+				7603D10BBB33F64B91301150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7603DFA165CFCCB206521DE3 /* Build configuration list for PBXProject "WallMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7603D2616C4B49A321207808 /* Debug */,
+				7603D56305863AFC6A8762AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7603D58FDD888D70A47CEC3C /* Project object */;
+}
